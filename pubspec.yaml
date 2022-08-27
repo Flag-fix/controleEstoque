@@ -1,0 +1,82 @@
+name: controle_estoque
+description: O meu, o seu, o nosso estoque
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  google_fonts: ^2.0.0
+
+  get_it:
+
+  #Scan QR Code
+  flutter_barcode_scanner:
+
+  #MASK INPUT
+  mask_text_input_formatter:
+
+  #Create QR Code
+  barcode_widget:
+
+  #SQLITE
+  sqflite:
+
+  #Formate DateTime
+  intl:
+
+  #Display Todos in Grid
+  flutter_staggered_grid_view:
+
+  #Flutter Toast
+  fluttertoast:
+
+  #RX Dart
+  rxdart:
+
+  #Dio
+  dio:
+
+  #MobX
+  mobx:
+
+  #Flutter MOBx
+  flutter_mobx:
+
+  #PATH
+  path:
+
+  #MASK TEXT
+  flutter_masked_text2:
+
+
+  #URL LAUCHER
+  url_launcher:
+
+  animated_splash_screen:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  #Build Runner
+  build_runner:
+
+  #MobX Codegen
+  mobx_codegen:
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/img/
